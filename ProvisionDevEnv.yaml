@@ -14,11 +14,11 @@ Parameters:
   AmazonLinuxImageID:
     Description: ID of Amazon Linux AMI that will be used for the Data Generator EC2 instance
     Type: String
-    Default: 'ami-09d069a04349dc3cb'
+    Default: 'ami-09d8b5222f2b93bf0'
   WindowsServerImageID:
     Description: ID of Windows Serever AMI that will be used for the Jumpbox and Data Gateway EC2 instances
     Type: String
-    Default: 'ami-09f2114fecbe506e2'
+    Default: 'ami-0f38562b9d4de0dfe'
   DataGeneratorInstanceType:
     Description: EC2 instance type for data generator.
     Type: String
